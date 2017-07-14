@@ -23,6 +23,9 @@ MATMNXINT is a monthly 2-Dimensional vertical integral of IAU diagnostics with 2
 
 MATMCPTDT is a 3-Dimensional temperature tendencies of 8 variables that is time averaged on 42 pressure levels with at a reduced resolution with 1.25-degree longitude by 1.25-degree latitude resolution. The dataset is organized as monthly HDF files from 1979-01-01 to 2016-02-29. Total data size is around 20 GB
 
+# Acknowledges
+Prototye development was funded through the ESIP Testbed initiative.
+
 
 For questions/comments, email Zhenlong Li at zhenlong@sc.edu .
 
