@@ -27,5 +27,5 @@ MATMCPTDT is a 3-Dimensional temperature tendencies of 8 variables that is time 
 Prototye development was funded through the ESIP Testbed initiative.
 
 
-For questions/comments, email Zhenlong Li at zhenlong@sc.edu .
+For questions/comments, contact Zhenlong Li at zhenlong@sc.edu .
 
