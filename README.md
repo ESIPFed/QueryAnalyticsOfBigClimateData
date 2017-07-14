@@ -6,7 +6,7 @@ Observations, model simulations, and reanalysis produce vast amounts of climate 
 To bridge the gap and strength the ties between climate data (providers) and user communities, in this project we prototype a high performance spatial web portal for parallel query analytics of big climate data. The back-end of the web portal is built upon two core technologies developed by the investigators including 1) a spatiotemporal indexing for efficient climate data management and access with Hadoop MapReduce (Li et al., 2016) and, and 2) a spatiotemporal query analytical framework for parallel aggregation and analysis of climate data with Hadoop Hive (Li et al., 2017). In this project, we further developed query analytical middleware with 1) a hybrid query engine integrating Cloudera Impala (for record-based data) and Hive (for array-based data), and 2) a multi-level caching mechanism to aggregate and cache the original data at different spatiotemporal scales. In addition, we extended the default Hive/Impala SQL with two new keywords AOI = REGION, VISUALIZE AS to better support both server side parallel processing and client side data visualization.  
 
 
-# Prototye System
+# Prototye
 
 The web portal prototype can be accessed and tested at: 
 http://gis.cassc.edu/climateci
