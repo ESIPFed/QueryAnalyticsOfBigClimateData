@@ -6,11 +6,14 @@ Observations, model simulations, and reanalysis produce vast amounts of climate 
 To bridge the gap and strength the ties between climate data (providers) and user communities, in this project we prototype a high performance spatial web portal for parallel query analytics of big climate data. The back-end of the web portal is built upon two core technologies developed by the investigators including 1) a spatiotemporal indexing for efficient climate data management and access with Hadoop MapReduce (Li et al., 2016) and, and 2) a spatiotemporal query analytical framework for parallel aggregation and analysis of climate data with Hadoop Hive (Li et al., 2017). In this project, we further developed query analytical middleware with 1) a hybrid query engine integrating Cloudera Impala (for record-based data) and Hive (for array-based data), and 2) a multi-level caching mechanism to aggregate and cache the original data at different spatiotemporal scales. In addition, we extended the default Hive/Impala SQL with two new keywords AOI = REGION, VISUALIZE AS to better support both server side parallel processing and client side data visualization.  
 
 
+# Prototye System
 
 The web portal prototype can be accessed and tested at: 
 http://gis.cassc.edu/climateci
 
 Currently, the protoype is powered by the a Hadoop cluster consisting of 13 computer servers with 108 CPU cores, 416 GB RAM memory, and 40 Terabytes storage. 
+
+# Data
 
 Three NASA MERRA data products (~ 2 terabytes) are loaded into the prototye system including MST1NXMLD,MATMNXINT, and MATMCPTDT. 
 
@@ -21,4 +24,5 @@ MATMNXINT is a monthly 2-Dimensional vertical integral of IAU diagnostics with 2
 MATMCPTDT is a 3-Dimensional temperature tendencies of 8 variables that is time averaged on 42 pressure levels with at a reduced resolution with 1.25-degree longitude by 1.25-degree latitude resolution. The dataset is organized as monthly HDF files from 1979-01-01 to 2016-02-29. Total data size is around 20 GB
 
 
+For questions/comments, email Zhenlong Li at zhenlong@sc.edu .
 
