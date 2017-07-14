@@ -27,7 +27,7 @@ MATMCPTDT is a 3-Dimensional temperature tendencies of 8 variables that is time 
 The User Defined Spatiotemporal Functions and their usage examples can be found at https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki
 
 # Acknowledges
-Prototye development was funded through the ESIP Testbed initiative.
+Prototye portal development was funded through the ESIP Testbed initiative.
 
 
 For questions/comments, contact Zhenlong Li at zhenlong@sc.edu .
