@@ -8,7 +8,7 @@ To bridge the gap and strength the ties between climate data (providers) and use
 
 # Prototye
 
-The web portal can be accessed and tested at: 
+The web portal can be accessed at: 
 http://gis.cas.sc.edu/scovas
 
 https://gidbusc.github.io/SCOVAS/
@@ -28,8 +28,8 @@ MATMCPTDT is a 3-Dimensional temperature tendencies of 8 variables that is time 
 # UDSF 
 The User Defined Spatiotemporal Functions and their usage examples can be found at https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki
 
-# Acknowledges
-Prototye portal development was funded through the ESIP Testbed initiative.
+# Acknowledgement
+An earlier version of the web portal was funded through the ESIP Testbed initiative.
 
 
 For questions/comments, contact Zhenlong Li at zhenlong@sc.edu .
