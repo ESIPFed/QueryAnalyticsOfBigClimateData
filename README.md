@@ -9,7 +9,7 @@ To bridge the gap and strength the ties between climate data (providers) and use
 # Prototye
 
 The web portal prototype can be accessed and tested at: 
-http://gis.cas.sc.edu/climateci
+http://gis.cas.sc.edu/scovas
 
 Currently, the protoype is powered by a Hadoop cluster consisting of 13 computer servers with 108 CPU cores, 416 GB RAM memory, and 40 Terabytes storage. 
 
